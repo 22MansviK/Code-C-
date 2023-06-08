@@ -70,7 +70,7 @@ void AdjencyMatrix(int m)
             }
  int main()
  {
-    /*int n;
+    int n;
     cout<< "Enter the number of edges"<< endl;
     cin>>n;
 
@@ -82,11 +82,11 @@ void AdjencyMatrix(int m)
     {
         int u, v;
         cin>> u>>v;
-        g.addEdge(u,v,0);
+        g.addEdge(u,v,1);
 
     }
 
-    g.printAdjacent(); */
+    g.printAdjacent(); 
 
     int p;
     cout<<"Enter the number of nodes"<< endl;
