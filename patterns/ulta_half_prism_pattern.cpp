@@ -8,13 +8,17 @@ int main()
     cin>>row;
   
 
-    for(int i=row; i>=1; i--)
+    for(int i=row; i>=0; i--)
     {
-        for(int j=1; j<=i; j++)
+        for(int j=0; j<=i; j++)
         {
             cout<<"*"<<' ';
         }
         cout<<endl;
     }
+    int a,b;
+    a= 1;
+    b = 4;
+ cout<<	(b ^ a);
     return 0;
 }
